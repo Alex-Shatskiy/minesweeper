@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Press Start 2P', cursive;
 }
 
 body {
@@ -8,6 +8,7 @@ body {
   align-items: center;
   justify-content: flex-center;
   flex-direction: column;
+  background-color: blueviolet  ;
 }
 
 #message, #notes {
@@ -32,16 +33,16 @@ body {
   height: 75px;
   border: 1px #ccc dotted;
   border-radius: 10%;
-  background-color: white;
+  background-color:lightblue;
   margin: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.board div:hover {
-  background-color: white;
-}
+/* .board div:hover {
+  background-color: lightblue;
+} */
 
 div.mine, div.mine:hover {
   background: no-repeat center/60% url("images/bomb.svg") crimson;
@@ -56,5 +57,5 @@ div.hidden:hover {
 }
 
 div.marked, div.marked:hover {
-  background: no-repeat center/60% url("images/mark.svg") deepskyblue;
+  background: no-repeat center/60% url("images/mark.svg") rgb(255, 166, 0);
 }
